@@ -1,0 +1,5 @@
+FROM nginx:latest
+
+COPY site.html /home/dima/nginx/html
+
+EXPOSE 80
